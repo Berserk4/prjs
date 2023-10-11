@@ -152,7 +152,7 @@ def main ():
 
 
     schedule.every().day.at("09:22").do(remu,7)
-    #schedule.every().day.at("09:23").do(remu)
+    schedule.every().day.at("09:23").do(v2,7)
 
     while True:
         schedule.run_pending()
